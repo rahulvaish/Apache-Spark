@@ -16,11 +16,9 @@ This repository contains PySpark examples.
   * Count of Dataframe's rows
   * Rename Columns
   * Cell Selction
-  * Column Selction [WAY#1]
-  * Column Selction [WAY#2]
-  * PythonStyleQuery  [WAY#1]
-  * PythonStyleQuery  [WAY#2]
-  * Dropping Columns  [WAY#1]
+  * Column Selction  
+  * PythonStyleQuery  
+  * Dropping Columns
   * Dropping off Rows (on condition)
   * Performing SQL Queries
   * Aggregate Methods
