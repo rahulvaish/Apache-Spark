@@ -25,15 +25,15 @@ This repository contains PySpark examples.
   * Sorting
   * Describe the Data
   * Talking about Missing Values - Replace with Mean
-  * Conversion:Spark Dataframes -> Pandas Dataframes
-  * Conversion:Pandas Dataframes -> Spark Dataframes
+  * Spark Dataframes **-->** Pandas Dataframes
+  * Pandas Dataframes **-->** Spark Dataframes
   
   
 - ###### [PySpark RDD](https://github.com/rahulvaish/Apache-Spark/tree/DataWrangling)
    ###### This example explains various methods on Data Worngling on PySpark RDDs. [[Source Code]](https://github.com/rahulvaish/Apache-Spark/tree/DataWrangling) 
   * Dataframes and RDD
-  * RDD -> Dataframe
-  * Dataframe -> RDD
+  * Conversion: RDD **-->** Dataframe
+  * Conversion: Dataframe **-->** RDD
   * Load the Data[captains_ODI.csv]
   
   
