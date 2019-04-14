@@ -4,6 +4,7 @@ This repository contains PySpark examples.
 - <a href='#data-wrangling'>Data Wrangling</a> 
   - <a href='#pyspark-dataframes'>PySpark DataFrames</a> 
   - <a href='#pyspark-rdd'>PySpark RDDs</a> 
+  - <a href='#pyspark-hive-on-azure-hdinsight'>PySpark+Hive on Azure HDInsight</a>
   
   
 <hr>
@@ -38,3 +39,10 @@ This repository contains PySpark examples.
   
   
   <hr>
+  
+  
+- ###### [PySpark+Hive on Azure HDInsight](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingApacheHadoop/Hive/Hive%2BPyspark%5BAzure%20HDInsight%5D.docx)
+   ###### This [document](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingApacheHadoop/Hive/Hive%2BPyspark%5BAzure%20HDInsight%5D.docx) is a step by step guide to show PySpark and Hive integration on Azure HDInsight.  
+   
+  <hr>
+  
