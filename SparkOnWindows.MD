@@ -1,3 +1,4 @@
+#### Get winutils.exe from here : https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe
 ![image](https://user-images.githubusercontent.com/45539698/56249220-93265780-60c8-11e9-89a5-b276f5620ebf.png)
 ![image](https://user-images.githubusercontent.com/45539698/56249226-9cafbf80-60c8-11e9-9aa4-af43b647969b.png)
 ![image](https://user-images.githubusercontent.com/45539698/56249246-adf8cc00-60c8-11e9-92d2-1ed8945d9b5d.png)
