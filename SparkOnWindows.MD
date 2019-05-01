@@ -14,3 +14,11 @@
 ![image](https://user-images.githubusercontent.com/45539698/56859653-88fb3780-69ab-11e9-8616-f9656c9d589f.png)
 #### [2] SBT : The Environmental Variables sets up automatically !
 ![image](https://user-images.githubusercontent.com/45539698/56859910-ac73b180-69ae-11e9-9a22-c3d64d1cd620.png)
+
+
+## Starting Spark in Stand-Alone Mode:
+
+![image](https://user-images.githubusercontent.com/689226/57012865-25307300-6c26-11e9-8a81-5e0008806aed.png)
+![image](https://user-images.githubusercontent.com/689226/57012909-4f823080-6c26-11e9-8d1e-01f117d2e20f.png)
+Get the Classpath Details from the logs...
+![image](https://user-images.githubusercontent.com/689226/57012996-d46d4a00-6c26-11e9-9c67-f82a6e9568eb.png)
