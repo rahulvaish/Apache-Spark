@@ -18,7 +18,10 @@
 
 ## Starting Spark in Stand-Alone Mode:
 
-![image](https://user-images.githubusercontent.com/689226/57012865-25307300-6c26-11e9-8a81-5e0008806aed.png)
-![image](https://user-images.githubusercontent.com/689226/57012909-4f823080-6c26-11e9-8d1e-01f117d2e20f.png)
-Get the Classpath Details from the logs...
-![image](https://user-images.githubusercontent.com/689226/57012996-d46d4a00-6c26-11e9-9c67-f82a6e9568eb.png)
+![image](https://user-images.githubusercontent.com/689226/57030702-3ea3e000-6c63-11e9-941c-762444bf9588.png)
+![image](https://user-images.githubusercontent.com/689226/57031068-3c8e5100-6c64-11e9-829d-69ae46494989.png)
+![image](https://user-images.githubusercontent.com/689226/57031145-7fe8bf80-6c64-11e9-948e-89f97d7087ea.png)
+In my scenerio, it failed! Further, checked the logs, and then executed the below command on the terminsl:
+java -cp "E:\SetUps\spark-2.4.1-bin-hadoop2.7/conf\;E:\SetUps\spark-2.4.1-bin-hadoop2.7\jars\*" -Xmx1g org.apache.spark.deploy.master.Master --host localhost --port 7077 --webui-port 8080 
+![image](https://user-images.githubusercontent.com/689226/57031335-1fa64d80-6c65-11e9-933c-e0b790f4e3c6.png)
+![image](https://user-images.githubusercontent.com/689226/57031549-9cd1c280-6c65-11e9-8a9c-4d3e76eed75e.png)
