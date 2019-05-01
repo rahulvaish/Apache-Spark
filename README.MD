@@ -1,6 +1,8 @@
 This repository contains PySpark examples.
 
 ### Table of Contents
+- <a href='#spark-installation'>Spark Installation</a>
+  - <a href='#spark-installation-on-windows'>Spark Installation On Windows</a> 
 - <a href='#data-wrangling'>Data Wrangling</a> 
   - <a href='#pyspark-dataframes'>PySpark DataFrames</a> 
   - <a href='#pyspark-rdd'>PySpark RDDs</a> 
@@ -46,3 +48,10 @@ This repository contains PySpark examples.
    
   <hr>
   
+  
+- ###### [Spark Installation On Windows](https://github.com/rahulvaish/Apache-Spark/blob/SparkEnvironment/SparkOnWindows.MD)
+   ###### This [document](https://github.com/rahulvaish/Apache-Spark/blob/SparkEnvironment/SparkOnWindows.MD) is a step by step guide to Spark Installation on "Windows".  
+   
+  <hr>
+  
+ 
