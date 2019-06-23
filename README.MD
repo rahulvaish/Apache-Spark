@@ -2,7 +2,7 @@ This repository contains PySpark examples.
 
 ### Table of Contents
 - <a href='#spark-installation'>Spark Installation</a>
-  - <a href='#spark-installation-on-windows'>Spark Installation On Windows</a> 
+  - <a href='#spark-installation-on-windows'>Spark Installation on Windows</a> 
   - <a href='#spark-installation-on-ubuntu'>Spark Installation on Ubuntu</a>
 - <a href='#data-wrangling'>Data Wrangling</a> 
   - <a href='#pyspark-dataframes'>PySpark DataFrames</a> 
