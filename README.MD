@@ -24,8 +24,8 @@ This repository contains PySpark examples.
   <hr>
 
   
-- ###### [Spark Installation On Anaconda](https://github.com/rahulvaish/Apache-Spark/blob/SparkEnvironment/SparkOnUbuntu.MD)
-   ###### This [document](https://github.com/rahulvaish/Apache-Spark/blob/SparkEnvironment/SparkOnUbuntu.MD) is a step by step guide to Spark Installation on "Anaconda".  
+- ###### [Spark Installation On Anaconda](https://github.com/rahulvaish/Apache-Spark/blob/SparkEnvironment/SparkOnAnaconda.MD)
+   ###### This [document](https://github.com/rahulvaish/Apache-Spark/blob/SparkEnvironment/SparkOnAnaconda.MD) is a step by step guide to Spark Installation on "Anaconda".  
    
   <hr>  
  
