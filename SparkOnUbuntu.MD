@@ -4,18 +4,21 @@
 ##### STEP#0: Get Java8:
 
 ```
-[1] Download JDK 8 tar.gz file from official website
-[2] Extract tar -xzvf filename.tar.gz
-[3] Move Extracted file to desired location. In my case I created /usr/local/java [with permissions]
-    mv filename.tar /usr/local/java
-[4] Make Environmental Varibale settings:
+[1] Download jdk-8u221-linux-x64.tar.gz from the Official Website.
+[2] Extract jdk-8u221-linux-x64.tar.gz:
+    tar -xzvf jdk-8u221-linux-x64.tar.gz
+[3] Move Extracted folder (jdk1.8.0_221) to a desired location. In my case I created /usr/local/java [with permissions]:
+    mv jdk1.8.0_221 /usr/local/java
+[4] Open ~/.bashrc file to set the Environmental Varibles:
     sudo gedit ~/.bashrc	
-[5] In the file, mention the below two lines (in the end)
-    export JAVA_HOME=/usr/local/java/jdk1.8.0_211
-    export PATH=$PATH:/usr/local/java/jdk1.8.0_211/bin
-[6] Save the file
-[7] source ~/.bashrc
-[8] java -version
+[5] In the file, mention the below two lines (in the end):
+    export JAVA_HOME=/usr/local/java/jdk1.8.0_221
+    export PATH=$PATH:/usr/local/java/jdk1.8.0_221/bin
+[6] Save the file.
+[7] Publish the changes:
+    source ~/.bashrc
+[8] Check the Java Version: 
+    java -version
 ```
 
 ##### STEP#1: Download Apache Spark.
