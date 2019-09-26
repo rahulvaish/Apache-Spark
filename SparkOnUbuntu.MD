@@ -1,6 +1,23 @@
 ### Installation of Spark on Ubuntu.
 <hr>
 
+##### STEP#0: Get Java8:
+
+```
+[1] Download JDK 8 tar.gz file from official website
+[2] Extract tar -xzvf filename.tar.gz
+[3] Move Extracted file to desired location. In my case I created /usr/local/java [with permissions]
+    mv filename.tar /usr/local/java
+[4] Make Environmental Varibale settings:
+    sudo gedit ~/.bashrc	
+[5] In the file, mention the below two lines (in the end)
+    export JAVA_HOME=/usr/local/java/jdk1.8.0_211
+    export PATH=$PATH:/usr/local/java/jdk1.8.0_211/bin
+[6] Save the file
+[7] source ~/.bashrc
+[8] java -version
+```
+
 ##### STEP#1: Download Apache Spark.
 ```
 sudo wget http://mirrors.estointernet.in/apache/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz 
