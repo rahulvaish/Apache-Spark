@@ -1,7 +1,7 @@
 ### Installation of Spark on Ubuntu.
 <hr>
 
-##### STEP#0: Prerequisite:
+##### STEP#0: Prerequisites:
 
 ###### [1] Get Java8:
 
@@ -70,23 +70,22 @@ export PYSPARK_PYTHON=python3
 # [1] export PYSPARK_DRIVER_PYTHON=jupyter-notebook
 # If you want to launch Pyspark on shell:
 # [1] Comment the below property:
-#     # export PYSPARK_DRIVER_PYTHON=jupyter-notebook
+#     #export PYSPARK_DRIVER_PYTHON=jupyter-notebook
 # [2] Execute the below command on terminal:
 #     unset PYSPARK_DRIVER_PYTHON
 #-------------------------------------------------------------------------------------------------------
 
-export PYSPARK_DRIVER_PYTHON=jupyter-notebook
  
 ```
 ##### STEP#5: Apply the changes.
 ```
 source ~/.bashrc 
 ```
-##### STEP#6: Launch Spark Shell.
+##### STEP#6: Launch Spark Shell:
 ```
 spark-shell  
 ```
-##### STEP#6: Launch PySpark [As Notebook].
+##### STEP#6: Launch PySpark:
 ```
 pyspark 
 ```
