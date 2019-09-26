@@ -33,11 +33,11 @@ tar -zxvf spark-2.4.3-bin-hadoop2.7.tgz
 ```
 mv spark-2.4.3-bin-hadoop2.7 /usr/local/spark
 ```
-##### STEP#4: Modify bashrc file.
+##### STEP#4: Modify the .bashrc file.
 ```
 sudo gedit ~/.bashrc 
 ```
-#####  In the file, mention the below lines [in the end] and save it:  </br>
+#####  In the .bashrc file, mention the below lines [in the end] and save it:  </br>
 ```
 export SPARK_HOME=/usr/local/spark/spark-2.4.3-bin-hadoop2.7 
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin  
