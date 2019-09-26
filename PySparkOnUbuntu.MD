@@ -1,4 +1,4 @@
-### Installation of Spark on Ubuntu.
+### Installation of PySpark on Ubuntu.
 <hr>
 
 ##### STEP#0: Prerequisites:
