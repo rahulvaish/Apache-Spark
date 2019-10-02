@@ -47,7 +47,27 @@ export SPARK_CONF_DIR=$SPARK_HOME/conf/
 ```
 source ~/.bashrc 
 ```
-##### STEP#6: Launch Spark Shell.
+
+##### STEP#6: Advanced Cofiguration Changes:
+```
+[1] Navigate to the Path: /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/spark-defaults.conf.sh
+[2] Assign corresponding value.
+    spark.master                     spark://localhost:7077
+
+-----------------------------------------------------------------------
+
+[1] Navigate to the Path:  /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/spark-env.sh
+[2] Assign corresponding values:
+    JAVA_HOME=/usr/local/java/jdk1.8.0_211
+    SPARK_MASTER_HOST=localhost
+    SPARK_MASTER_PORT=7077
+    YARN_CONF_DIR=/usr/local/hadoop/hadoop-3.2.0/etc/hadoop
+    HADOOP_CONF_DIR=/usr/local/hadoop/hadoop-3.2.0/etc/hadoop
+
+```
+
+
+##### STEP#7: Launch Spark Shell.
 ```
 spark-shell  
 ```
