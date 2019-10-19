@@ -83,14 +83,16 @@ source ~/.bashrc
 
 ##### STEP#6: Advanced Cofiguration Changes:
 ```
-[1] Navigate to the Path: /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/spark-defaults.conf.sh
-[2] Assign corresponding value.
+[1] Navigate to the Path: /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/
+[2] Execute: cp spark-defaults.conf.template spark-defaults.conf.sh
+[3] Assign/Uncomment corresponding value in spark-defaults.conf.sh
     spark.master                     spark://localhost:7077
 
 -----------------------------------------------------------------------
 
-[1] Navigate to the Path:  /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/spark-env.sh
-[2] Assign corresponding values:
+[1] Navigate to the Path:  /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/
+[2] Execute: cp spark-env.sh.template spark-env.sh
+[3] Assign corresponding values:
     JAVA_HOME=/usr/local/java/jdk1.8.0_211
     SPARK_MASTER_HOST=localhost
     SPARK_MASTER_PORT=7077
