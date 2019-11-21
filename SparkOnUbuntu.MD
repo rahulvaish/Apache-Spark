@@ -2,24 +2,16 @@
 <hr>
 
 ##### STEP#0: Get Java8:
-
-```
-[1] Download jdk-8u221-linux-x64.tar.gz from the Official Website.
-[2] Extract jdk-8u221-linux-x64.tar.gz:
-    tar -xzvf jdk-8u221-linux-x64.tar.gz
-[3] Move Extracted folder (jdk1.8.0_221) to a desired location. In my case I created /usr/local/java [with permissions]:
-    mv jdk1.8.0_221 /usr/local/java
-[4] Open ~/.bashrc file to set the Environmental Varibles:
-    sudo gedit ~/.bashrc	
-[5] In the file, mention the below two lines (in the end):
-    export JAVA_HOME=/usr/local/java/jdk1.8.0_221
-    export PATH=$PATH:/usr/local/java/jdk1.8.0_221/bin
-[6] Save the file.
-[7] Publish the changes:
-    source ~/.bashrc
-[8] Check the Java Version: 
-    java -version
-```
+<pre>
+[1] <b>Download:</b> jdk-8u221-linux-x64.tar.gz from Oracle's Official Website.
+[2] <b>Untar:</b> tar -xzvf jdk-8u221-linux-x64.tar.gz
+[3] <b>Execute:</b> mv jdk1.8.0_221 /usr/local/java
+[4] <b>Edit ~/.bashrc file with below Environental Variables:</b>
+    - export JAVA_HOME=/usr/local/java/jdk1.8.0_221
+    - export PATH=$PATH:/usr/local/java/jdk1.8.0_221/bin
+[7] <b>Execute:</b> source ~/.bashrc
+[8] <b>Execute:</b> java -version
+</pre>
 
 ##### STEP#1: Download Apache Spark.
 ```
@@ -49,24 +41,23 @@ source ~/.bashrc
 ```
 
 ##### STEP#6: Advanced Cofiguration Changes:
-```
-[1] Navigate to the Path: /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/
-[2] Execute: cp spark-defaults.conf.template spark-defaults.conf.sh
-[3] Assign/Uncomment corresponding value in spark-defaults.conf.sh
-    spark.master                     spark://localhost:7077
+<pre>
+[1] <b>Navigate:</b> /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/
+[2] <b>Execute:</b> cp spark-defaults.conf.template spark-defaults.conf.sh
+[3] <b>Edit spark-defaults.conf.sh with below property:</b>
+    - spark.master                     spark://localhost:7077
 
 -----------------------------------------------------------------------
 
-[1] Navigate to the Path:  /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/
-[2] Execute: cp spark-env.sh.template spark-env.sh
-[3] Assign corresponding values:
-    JAVA_HOME=/usr/local/java/jdk1.8.0_211
-    SPARK_MASTER_HOST=localhost
-    SPARK_MASTER_PORT=7077
-    YARN_CONF_DIR=/usr/local/hadoop/hadoop-3.2.0/etc/hadoop
-    HADOOP_CONF_DIR=/usr/local/hadoop/hadoop-3.2.0/etc/hadoop
-
-```
+[1] <b>Navigate:</b> /usr/local/spark/spark-2.3.4-bin-hadoop2.7/conf/
+[2] <b>Execute:</b> cp spark-env.sh.template spark-env.sh
+[3] <b>Edit spark-env.sh with below properties:</b>
+    - JAVA_HOME=/usr/local/java/jdk1.8.0_211
+    - SPARK_MASTER_HOST=localhost
+    - SPARK_MASTER_PORT=7077
+    - YARN_CONF_DIR=/usr/local/hadoop/hadoop-3.2.0/etc/hadoop
+    - HADOOP_CONF_DIR=/usr/local/hadoop/hadoop-3.2.0/etc/hadoop
+</pre>
 
 
 ##### STEP#7: Launch Spark Shell.
