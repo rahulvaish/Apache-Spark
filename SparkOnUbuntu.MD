@@ -17,7 +17,7 @@
 ```
 sudo wget http://mirrors.estointernet.in/apache/spark/spark-2.3.4/spark-2.3.4-bin-hadoop2.7.tgz 
 ```
-##### STEP#2: Unzip Apache Spark.
+##### STEP#2: Untar Apache Spark.
 ```
 tar -zxvf spark-2.3.4-bin-hadoop2.7.tgz 
 ```
